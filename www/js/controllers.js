@@ -3,6 +3,10 @@ angular.module('starter.controllers', [])
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
   $scope.title = "Foobar";
+  $scope.externalLink = function(url) {
+    window.open(url, '_self', 'location=yes'); 
+    return false;
+  };
   $scope.social = [
     {
       name: "Linkedin",
@@ -13,8 +17,4 @@ angular.module('starter.controllers', [])
       url: "https://twitter.com/SalemeInsServ"
     }
   ];
-})
-
-
-.controller('PlaylistCtrl', function($scope, $stateParams) {
 });

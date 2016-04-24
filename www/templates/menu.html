@@ -22,7 +22,7 @@
           Home
         </ion-item>
         <div  ng-repeat="item in social">
-          <ion-item menu-close href="{{ item.url }}" target="_self">
+          <ion-item menu-close href="#" ng-click='externalLink("{{ item.url }}")'>
             {{ item.name }}
           </ion-item>
         </div>
