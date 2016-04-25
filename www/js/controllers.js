@@ -7,12 +7,20 @@ angular.module('starter.controllers', [])
     };
     $scope.social = [
       {
+        name: "Facebook",
+        url: "https://facebook.com/"
+      },
+      {
+        name: "Google+",
+        url: "https://plus.google.com/"
+      },
+      {
         name: "Linkedin",
-        url: "#"
+        url: "https://linkedin.com/"
       },
       {
         name: "Twitter",
-        url: "#"
+        url: "https://twitter.com/"
       }
     ];
   });
