@@ -8,6 +8,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     $ionicPlatform.ready(function() {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
       // for form inputs)
+
       if (window.cordova && window.cordova.plugins.Keyboard) {
         cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         cordova.plugins.Keyboard.disableScroll(true);
@@ -33,15 +34,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/home.html'
           }
         }
-      })
-    .state('app.contact', {
-      url: '/contact',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/contact.html'
-        }
-      }
-    });
+      });
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/home');
   });
