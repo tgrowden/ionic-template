@@ -1,1 +1,5 @@
 /* Empty. Add your own CSS if you like */
+
+label.item.item-input.item-floating-label input, label.item.item-input.item-floating-label textarea {
+  padding-left: 1rem;
+}
