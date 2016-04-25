@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
       }
     ];
     $scope.externalLink = function(url) {
-      window.open(url, '_self', 'location=yes');
+      window.open(url, '_system');
       return false;
     };
     $scope.sendEmail = function() {
