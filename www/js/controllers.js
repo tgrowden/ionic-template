@@ -2,7 +2,7 @@ angular.module('starter.controllers', [])
   .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
     $scope.title = "Foobar"; // set
     $scope.adminEmail = "foo@bar.com"; //set
-    $scope.social = [  //set
+    $scope.social = [ //set
       {
         name: "Facebook",
         url: "https://facebook.com/"
